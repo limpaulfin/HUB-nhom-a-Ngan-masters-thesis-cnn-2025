@@ -55,38 +55,69 @@ Dựa trên nội dung và tính chất học thuật của dự án, tôi đề
    - Thể hiện rõ đây là luận văn thạc sĩ
    - Có năm thực hiện
    - Dễ quản lý nếu có nhiều dự án khác
+
+# Objectives and Key Results (OKR)
+
+## Tiến độ công việc
+
+### Sprint 1 (19/03/2024)
+- [x] Khởi tạo cấu trúc dự án
+- [x] Chuẩn hóa tài liệu tham khảo theo APA 7th Edition
+- [x] Hoàn thiện cấu trúc Chapter 2
+- [x] Chỉnh sửa nội dung các file markdown thành văn học thuật
+
+### Sprint 2 (20/03/2024)
+- [x] Bổ sung tài liệu tham khảo mới về:
+  - ELU và PReLU
+  - Ứng dụng CNN trong y tế và công nghiệp
+  - Các nghiên cứu về tối ưu hóa CNN
+- [x] Cập nhật đường dẫn trong các file markdown
+- [x] Kiểm tra và xác thực tất cả các đường dẫn
+- [ ] Thêm hình ảnh minh họa cho các phần
+- [ ] Bổ sung chú thích cho hình ảnh
+
+### Sprint 3 (21/03/2024 - 22/03/2024)
+- [ ] Review và chỉnh sửa nội dung
+- [ ] Thêm ví dụ cụ thể cho từng phần
+- [ ] Hoàn thiện format và trình bày
+
+## Cấu trúc thư mục
+
 ```
 
-# Tiến độ công việc
+docs/
+├── chapter2/
+│ ├── 2.0-README.md
+│ ├── 2.1.1-dinh-nghia-ung-dung.md
+│ ├── 2.1.2-kien-truc-co-ban.md
+│ ├── 2.1.3-ham-kich-hoat.md
+│ ├── 2.1.4-uu-nhuoc-diem.md
+│ ├── 2.2-so-sanh.md
+│ └── references.md
 
-## Sprint 1 (19/03/2024)
+```
 
-### Đã hoàn thành:
+## Quy chuẩn tài liệu tham khảo
 
-1. Khởi tạo cấu trúc project
+1. Tuân thủ APA 7th Edition
+2. Phân loại theo:
+   - Sách và Giáo trình
+   - Bài Báo Khoa Học
+   - Tài Liệu Trực Tuyến và Khóa Học
+   - Ứng dụng và Nghiên cứu Thực Nghiệm
+   - Luận Văn và Báo Cáo Kỹ Thuật
+3. Đường dẫn:
+   - Sử dụng đường dẫn tương đối cho file nội bộ
+   - Kiểm tra tính hợp lệ của URL
+   - Thêm ngày truy cập cho tài liệu trực tuyến
 
-    - [x] Tạo repository GitHub
-    - [x] Thiết lập cấu trúc thư mục
-    - [x] Tạo file README và hướng dẫn đóng góp
+## Yêu cầu nội dung
 
-2. Chuẩn hóa tài liệu tham khảo
-    - [x] Cập nhật format APA 7th Edition
-    - [x] Thêm DOI và URL cho các nguồn
-    - [x] Phân loại tài liệu theo nhóm
-
-### Đang thực hiện:
-
-1. Chỉnh sửa nội dung chapter 2
-    - [ ] Chuyển đổi format gạch đầu dòng thành văn học thuật
-    - [ ] Thêm trích dẫn theo chuẩn APA
-    - [ ] Bổ sung hình ảnh minh họa
-
-### Kế hoạch tiếp theo:
-
-1. Sprint 2 (20/03/2024 - 22/03/2024)
-    - [ ] Hoàn thiện nội dung chapter 2
-    - [ ] Review và chỉnh sửa
-    - [ ] Thêm hình ảnh và biểu đồ minh họa
+1. Văn phong học thuật, chuyên nghiệp
+2. Trích dẫn đầy đủ và chính xác
+3. Cấu trúc rõ ràng, logic
+4. Ví dụ minh họa cụ thể
+5. Hình ảnh và biểu đồ chất lượng cao
 
 # Khởi tạo Git repository và kết nối với remote
 
@@ -96,3 +127,4 @@ git commit -m "Initial commit: Project structure and documentation setup"
 git branch -M main
 git remote add origin https://github.com/limpaulfin/HUB-nhom-a-Ngan-masters-thesis-cnn-2025.git
 git push -u origin main
+```
